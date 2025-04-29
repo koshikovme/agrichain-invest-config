@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 investments:
-  message: "Welcome to AgriChain Invest investments related prod APIs "
+  message: "Welcome to AgriChain Invest investments related production APIs "
   contactDetails:
     name: "Temirlan Temirlan - Product Owner"
     email: "moldakhmetov@eazybank.com"
