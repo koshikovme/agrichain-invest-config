@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+investments:
+  message: "Welcome to AgriChain Invest investments related local APIs "
+  contactDetails:
+    name: "Dossymzhan Zhailau - Developer"
+    email: "dossymzhan@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

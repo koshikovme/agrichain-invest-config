@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+investments:
+  message: "Welcome to AgriChain Invest investments related QA APIs "
+  contactDetails:
+    name: "Alimzhan Koshikov - QA Lead"
+    email: "vazya1224@eazybank.com"
+  onCallSupport:
+    - (666) 265-3765
+    - (666) 734-8371
