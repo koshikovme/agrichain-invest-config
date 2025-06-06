@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 investments:
-  message: "Welcome to AgriChain Invest investments related production APIs "
+  message: "Welcome to AgriChain Invest investments related production APIs"
   contactDetails:
     name: "Temirlan Temirlan - Product Owner"
     email: "moldakhmetov@eazybank.com"
@@ -17,11 +17,6 @@ grpc:
   notification:
     host: notification-service
     port: 50000
-
-spring:
-  config:
-    import:
-      - "configserver:http://configserver:8071/"
 
 eureka:
   instance:
