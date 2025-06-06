@@ -9,3 +9,25 @@ investments:
   onCallSupport:
     - (555) 555-1234
     - (555) 523-1345
+
+grpc:
+  payment:
+    host: localhost
+    port: 50051
+  notification:
+    host: localhost
+    port: 50000
+
+spring:
+  config:
+    import:
+      - "configserver:http://localhost:8071/"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
