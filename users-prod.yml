@@ -18,11 +18,6 @@ grpc:
     host: notification-service
     port: 50000
 
-spring:
-  config:
-    import:
-      - "configserver:http://configserver:8071/"
-
 eureka:
   instance:
     prefer-ip-address: true
