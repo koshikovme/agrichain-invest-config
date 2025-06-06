@@ -2,10 +2,32 @@ build:
   version: "1.0"
 
 investments:
-  message: "Welcome to AgriChain Invest investments related production333 APIs "
+  message: "Welcome to AgriChain Invest investments related production APIs "
   contactDetails:
     name: "Temirlan Temirlan - Product Owner"
     email: "moldakhmetov@eazybank.com"
   onCallSupport:
     - (453) 392-4829
     - (236) 203-0384
+
+grpc:
+  payment:
+    host: payment-api
+    port: 50051
+  notification:
+    host: notification-service
+    port: 50000
+
+spring:
+  config:
+    import:
+      - "configserver:http://configserver:8071/"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://eurekaserver:8070/eureka/
